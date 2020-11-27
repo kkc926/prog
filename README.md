@@ -12,7 +12,7 @@ def solution(n, arr1, arr2):
 ```
 
 #### zip : 같은 타입의 배열 문자 등을 묶는다
- zip(arr1,arr2):
+    zip(arr1,arr2):
 
 #### bin(2) 2진법의 수로 바꾸어 준다
     0b01

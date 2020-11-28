@@ -23,6 +23,25 @@ def solution(n, arr1, arr2):
     [2:] str 데이터의 2번째 인덱스부터 슬라이싱한다
 
 
+# 비밀지도
+```
+a,b=input().split()
+a=int(a)
+b=int(b)
+
+print(a//b,a%b)
+```
+
+#### .split() : 입력받은 값을 분배하여준다
+    a,b=input().split()
+    10,2 를 입력받으면 a=10,b=2 
+
+#### a//b
+    몫만 출력
+#### a%b
+    나머지만 출력
+
+
 
 
 

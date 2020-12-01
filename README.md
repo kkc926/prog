@@ -119,6 +119,85 @@ for x in text:
 
 
 
+# 채점하기  point : split을 하면 입력값이 str로 리스트로 들어간다. 만약 ooooxoo를 입력받고 split()을 쓰면 ['ooooxoo']이 됨.
+    ```
+n=input()
+s=0
+score=0
+
+for i in n:
+	if i !='x':
+		s += 1
+		score +=s
+		
+	else:
+		s=0
+			
+print(score)
+    ```
+    
+
+
+# 문자열 번갈아 출력하기 point : 뒤에서 2칸걸러 값을 출력하고 싶으면 n-(i+1//2) 를 하면 된다.
+```
+text=input()
+n=len(text)
+
+for i in range(n):
+	if i%2 ==0:
+		print(text[i//2],end='')
+	else:
+		print(text[n-(i+1)//2],end='')
+
+
+```
+
+# 의좋은 형제 point : 25를 12, 13으로 나누고 싶을때는 25//2를 하고 나머지 25%2를 더하면 된다
+```
+a,b=map(int,input().split())
+d=int(input())
+
+for i in range(d):
+	if i%2==0:
+		b=b+a//2+a%2
+		a=a//2
+	else:
+		
+		a=a+b//2+b%2
+		b=b//2
+		
+print(a,b)
+```
+
+
+# 부분문자열 point : 슬라이싱 방법 print(text[:i+1]) -->text[start:end:step]
+``` 
+text=str(input())
+
+
+for i in range(len(text)):
+	print(text[:i+1])
+```
+
+# 3n+1 point : for 문 안에 while 문을 넣을때 만약 i 를 기준으로 돌린다면 n=i로 새로운 변수를 써야 for문이 안꼬임
+```
+a,b=map(int,input().split())
+count=0
+li=[]
+for i in range(a,b+1):
+	count=0
+	n=i
+	while (n!=1):
+		if n%2==0:
+			n=n/2
+		else:
+			n=n*3+1
+		count += 1
+	count +=1
+	li.append(count)
+		
+print(max(li))
+```
 
 
 

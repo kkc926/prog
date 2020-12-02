@@ -198,8 +198,18 @@ for i in range(a,b+1):
 		
 print(max(li))
 ```
+# 유일한 수 point : count함수 사용 li.count(i)==1: li라는 리스트에 i라는 인수가 1개면
+```
+n=int(input())
+li=list(map(int,input().split()))
 
 
+for i in li:
+	if li.count(i)==1:
+		print(i)
+	
+
+```
 
 
 

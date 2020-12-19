@@ -227,20 +227,7 @@ for i in range(2,n+1):
 print(count)
 ```
 
-## 소수의 갯수 구하기 point : check = True 이용하기 // 소수는 1과 자기자신으로 나눴을때 나머지가 0인수 따라사 2개를 범위에서 빼서 생각해보기
-```
-n=int(input())
-count=0
 
-for i in range(2,n+1):
-	check=True
-	for j in range(2,i):
-		if i%j==0:
-			check=False
-	if check==True:
-		count += 1
-print(count)
-```
 
 
 

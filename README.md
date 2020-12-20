@@ -211,6 +211,19 @@ for i in li:
 
 ```
 
+## 유일한 수 point : count함수 사용 li.count(i)==1: li라는 리스트에 i라는 인수가 1개면
+```
+n=int(input())
+li=list(map(int,input().split()))
+
+
+for i in li:
+	if li.count(i)==1:
+		print(i)
+	
+
+```
+
 
 ## 소수의 갯수 구하기 point : check = True 이용하기 // 소수는 1과 자기자신으로 나눴을때 나머지가 0인수 따라사 2개를 범위에서 빼서 생각해보기
 ```

@@ -4,6 +4,10 @@ def solution(citations):
     else: answer = 0
     citations = sorted(citations)
 
+
+
+
+
     # [0] * 10000000 인 경우 
     for i in range(min(citations), max(citations) + 1):
         left = 0

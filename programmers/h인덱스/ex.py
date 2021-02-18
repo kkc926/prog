@@ -1,5 +1,5 @@
 def solution(citations):
-    # [22, 42] , 2인 경우 
+
     if min(citations) >= len(citations): answer = len(citations)
     else: answer = 0
     citations = sorted(citations)
@@ -8,7 +8,7 @@ def solution(citations):
 
 
 
-    # [0] * 10000000 인 경우 
+
     for i in range(min(citations), max(citations) + 1):
         left = 0
         right = 0

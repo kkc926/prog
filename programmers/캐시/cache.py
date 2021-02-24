@@ -15,5 +15,4 @@ def solution(cacheSize, cities):
             else:                
                 cache=cache[1:]+[c]
             answer += 5
-        
     return answer

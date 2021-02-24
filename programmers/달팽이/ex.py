@@ -6,6 +6,8 @@ def solution(morning, night, tree):
     tree: 나무의 높이 
     cur_height: 현재 높이 
     day: 일 """
+
+
     if morning >= tree: 
         return 1 
     delta = (morning - night) 
@@ -15,6 +17,7 @@ def solution(morning, night, tree):
         return day + 1 
     else: 
         return day + 2 
+        
         
 if __name__ == "__main__": 
     a, b, v = map(int, sys.stdin.readline().split()) 

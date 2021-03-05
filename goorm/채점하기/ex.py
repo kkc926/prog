@@ -16,7 +16,6 @@ for i in n:
 	if i !='x':
 		s += 1
 		score +=s
-		
 	else:
 		s=0			
 print(score)

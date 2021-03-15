@@ -1,0 +1,3 @@
+﻿  소스.c
+C:\workspace\c언어\1장\Project1\Project2\소스.c(4,9): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+C:\workspace\c언어\1장\Project1\Project2\소스.c(5,2): error C2143: 구문 오류: ')'이(가) 'return' 앞에 없습니다.

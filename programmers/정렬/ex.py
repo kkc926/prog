@@ -4,6 +4,8 @@ def solution(array, commands):
         arr.sort() 
         return arr[c-1] 
     answer = [] 
-    for x, y, z in commands: 
-        answer.append(com(array, x, y, z)) 
+    for x, y, z in commands:
+
+        answer.append(com(array, x, y, z))
+
     return answer

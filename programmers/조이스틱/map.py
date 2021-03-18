@@ -1,10 +1,10 @@
 def solution(name):
     answer = 0
     strSol = ['A'] * len(name)
-    same = [False] * len(name)   # 같아졌는지
+    same = [False] * len(name)
     cursor = 0
     
-    # 다른 곳 파싱
+
     for a in range(len(name)):
         if strSol[a] != name[a]:
             same[a] = False # 다름
